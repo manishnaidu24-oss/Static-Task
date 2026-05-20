@@ -21,4 +21,4 @@ jobs:
           aws-region: eu-north-1
  
       - name: Deploy Files to s3
-        run: aws s3 sync . s3://tito-s3 --delete
+        run: aws s3 sync . s3://tito2-s3 --delete
