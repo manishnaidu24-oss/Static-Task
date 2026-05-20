@@ -20,5 +20,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-north-1
  
-      - name: Deploy Files to S3
+      - name: Deploy Files to s3
         run: aws s3 sync . s3://tito-s3 --delete
